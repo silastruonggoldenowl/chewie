@@ -577,16 +577,10 @@ class _CupertinoControlsState extends State<CupertinoControls>
         margin: const EdgeInsets.only(
           right: 8.0,
         ),
-        child: Transform(
-          alignment: Alignment.center,
-          transform: Matrix4.skewY(0.0)
-            ..rotateX(math.pi)
-            ..rotateZ(math.pi * 0.8),
-          child: Icon(
-            Icons.speed,
-            color: iconColor,
-            size: 18.0,
-          ),
+        child: Icon(
+          Icons.speed,
+          color: iconColor,
+          size: 18.0,
         ),
       ),
     );
